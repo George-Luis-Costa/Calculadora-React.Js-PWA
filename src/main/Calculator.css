@@ -1,0 +1,12 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    /* background-color: red;  /*temporario */
+    
+    /* Comentando acima para add o display grid */
+    display: grid;
+    grid-template-columns: repeat(4,25%); /* 4 colunas ocupando 25% cada */
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}

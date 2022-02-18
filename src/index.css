@@ -1,0 +1,22 @@
+/* Nossa fonte escolhida */
+@font-face {
+  font-family: "RobotoMono";
+  src: url("./fonts/RobotoMono-Thin.ttf");
+}
+
+/* Para selecionar tudo "*" */
+* { 
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh; /* Pegando altura completa*/
+  justify-content: center; 
+  align-items: center;
+  text-align: center; /* alinhando texto */
+
+  color: #fff;
+  /* Cor gradiente de fundo */
+  background: linear-gradient(to right, rgb(83, 105, 118 ), rgb(41, 46, 73));
+}
