@@ -1,7 +1,7 @@
 {
   "name": "Calculadora React.Js",
   "short_name": "Calculadora",
-  "theme_color": "#008eff",
+  "theme_color": "#fa8231",
   "background_color": "#008eff",
   "display": "standalone",
   "start_url": ".",
