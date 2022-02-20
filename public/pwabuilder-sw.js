@@ -6,9 +6,10 @@ const CACHE = "pwabuilder-page";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = ['/',
-  'index.html',
-  '/src/index.js',
+  "../public/index.html",
+  "../src/index",
 ];
+
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
